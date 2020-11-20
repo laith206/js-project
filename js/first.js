@@ -49,12 +49,12 @@ async function apipizzid(id) {
 function desplaypzzaid(allpizzaid) {
     let cartona = ` `;
     cartona = `
-            <div class=" col-md-6 col-sm-2">
+            <div class=" col-md-6 col-sm-6">
             <div class="hover-im">
             <img src="${allpizzaid.image_url}" class=" card-img img-fluid" alt="">
             </div>
         </div>
-        <div class=" col-md-6 col-sm-3">
+        <div class=" col-md-6 col-sm-6">
             <h3 style="color: #e1e1e1;">${allpizzaid.title}</h3>
             <p>${allpizzaid.ingredients}</p>
             <a href="${allpizzaid.source_url}" class="text-decoration-none">Read More</a>
