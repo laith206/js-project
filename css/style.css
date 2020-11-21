@@ -377,7 +377,7 @@
     #showfromid {
         position: relative;
         width: 50%;
-        height: 500px;
+        height: 50%;
         background-size: 100% 100%;
         display: flex;
         flex-wrap: wrap;
